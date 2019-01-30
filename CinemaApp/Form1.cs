@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace CinemaApp
 {
-    public partial class Form1 : Form
+    public partial class CinemaApp : Form
     {
-        public Form1()
+        public CinemaApp()
         {
             InitializeComponent();
+        }
+
+        private void CinemaApp_Load(object sender, EventArgs e)
+        {
+            //cinemaPicture.BackColor = Color.
         }
     }
 }
