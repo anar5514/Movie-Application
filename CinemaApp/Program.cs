@@ -16,7 +16,7 @@ namespace CinemaApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new CinemaApp());
+            Application.Run(new MovieApp());
         }
     }
 }
