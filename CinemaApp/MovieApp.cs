@@ -31,7 +31,7 @@ namespace CinemaApp
         private void search_Click(object sender, EventArgs e)
         {
             CurrentIndex = 0;
-            HttpClient http = new HttpClient();
+            HttpClient http = new HttpClient(); 
             var response =  http.GetAsync($@"http://www.omdbapi.com/?apikey=a9a2e8a2&s={movieSearch.Text}").Result;
             var str = response.Content.ReadAsStringAsync().Result;
             dynamic data = JsonConvert.DeserializeObject(str);
