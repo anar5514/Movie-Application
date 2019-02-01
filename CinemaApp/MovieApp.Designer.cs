@@ -379,6 +379,7 @@
             this.movieSearch.FontSize = MetroFramework.MetroTextBoxSize.Tall;
             this.movieSearch.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.movieSearch.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.movieSearch.Icon = global::CinemaApp.Properties.Resources.searchicon1;
             this.movieSearch.Lines = new string[0];
             this.movieSearch.Location = new System.Drawing.Point(305, 67);
             this.movieSearch.MaxLength = 32767;
