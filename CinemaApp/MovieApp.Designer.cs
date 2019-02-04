@@ -82,7 +82,7 @@
             this.btnSearch.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSearch.BackgroundImage")));
             this.btnSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSearch.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnSearch.Location = new System.Drawing.Point(888, 56);
+            this.btnSearch.Location = new System.Drawing.Point(952, 55);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(63, 48);
             this.btnSearch.Style = MetroFramework.MetroColorStyle.Purple;
@@ -111,7 +111,7 @@
             // 
             // labelTitle
             // 
-            this.labelTitle.BackColor = System.Drawing.Color.Black;
+            this.labelTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.labelTitle.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelTitle.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelTitle.ForeColor = System.Drawing.Color.DimGray;
@@ -127,7 +127,7 @@
             // 
             // labelRuntime
             // 
-            this.labelRuntime.BackColor = System.Drawing.Color.Black;
+            this.labelRuntime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.labelRuntime.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelRuntime.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelRuntime.ForeColor = System.Drawing.Color.DimGray;
@@ -143,7 +143,7 @@
             // 
             // labelYear
             // 
-            this.labelYear.BackColor = System.Drawing.Color.Black;
+            this.labelYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.labelYear.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelYear.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelYear.ForeColor = System.Drawing.Color.DimGray;
@@ -159,7 +159,7 @@
             // 
             // labelGenre
             // 
-            this.labelGenre.BackColor = System.Drawing.Color.Black;
+            this.labelGenre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.labelGenre.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelGenre.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelGenre.ForeColor = System.Drawing.Color.DimGray;
@@ -179,7 +179,7 @@
             this.labelDescription.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelDescription.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelDescription.ForeColor = System.Drawing.Color.Gray;
-            this.labelDescription.Location = new System.Drawing.Point(1008, 175);
+            this.labelDescription.Location = new System.Drawing.Point(1005, 148);
             this.labelDescription.Name = "labelDescription";
             this.labelDescription.Size = new System.Drawing.Size(125, 28);
             this.labelDescription.TabIndex = 12;
@@ -194,7 +194,7 @@
             this.movieTitle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.movieTitle.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieTitle.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.movieTitle.ForeColor = System.Drawing.Color.DimGray;
+            this.movieTitle.ForeColor = System.Drawing.Color.DarkGray;
             this.movieTitle.Location = new System.Drawing.Point(518, 193);
             this.movieTitle.Name = "movieTitle";
             this.movieTitle.Size = new System.Drawing.Size(391, 28);
@@ -209,7 +209,7 @@
             this.movieGenre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.movieGenre.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieGenre.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.movieGenre.ForeColor = System.Drawing.Color.DimGray;
+            this.movieGenre.ForeColor = System.Drawing.Color.DarkGray;
             this.movieGenre.Location = new System.Drawing.Point(518, 238);
             this.movieGenre.Name = "movieGenre";
             this.movieGenre.Size = new System.Drawing.Size(391, 28);
@@ -224,7 +224,7 @@
             this.movieYear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.movieYear.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieYear.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.movieYear.ForeColor = System.Drawing.Color.DimGray;
+            this.movieYear.ForeColor = System.Drawing.Color.DarkGray;
             this.movieYear.Location = new System.Drawing.Point(518, 279);
             this.movieYear.Name = "movieYear";
             this.movieYear.Size = new System.Drawing.Size(391, 28);
@@ -239,7 +239,7 @@
             this.movieRuntime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.movieRuntime.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieRuntime.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.movieRuntime.ForeColor = System.Drawing.Color.DimGray;
+            this.movieRuntime.ForeColor = System.Drawing.Color.DarkGray;
             this.movieRuntime.Location = new System.Drawing.Point(518, 321);
             this.movieRuntime.Name = "movieRuntime";
             this.movieRuntime.Size = new System.Drawing.Size(391, 28);
@@ -254,7 +254,7 @@
             this.movieImdb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.movieImdb.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieImdb.FontWeight = MetroFramework.MetroLabelWeight.Regular;
-            this.movieImdb.ForeColor = System.Drawing.Color.DimGray;
+            this.movieImdb.ForeColor = System.Drawing.Color.DarkGray;
             this.movieImdb.Location = new System.Drawing.Point(518, 362);
             this.movieImdb.Name = "movieImdb";
             this.movieImdb.Size = new System.Drawing.Size(391, 28);
@@ -270,7 +270,7 @@
             this.btnSave.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnSave.BackgroundImage")));
             this.btnSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnSave.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnSave.Location = new System.Drawing.Point(543, 557);
+            this.btnSave.Location = new System.Drawing.Point(643, 557);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(63, 57);
             this.btnSave.Style = MetroFramework.MetroColorStyle.Purple;
@@ -287,7 +287,7 @@
             this.btnOpen.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnOpen.BackgroundImage")));
             this.btnOpen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnOpen.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.btnOpen.Location = new System.Drawing.Point(632, 557);
+            this.btnOpen.Location = new System.Drawing.Point(732, 557);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(62, 57);
             this.btnOpen.Style = MetroFramework.MetroColorStyle.Purple;
@@ -300,7 +300,7 @@
             // 
             // labelImdb
             // 
-            this.labelImdb.BackColor = System.Drawing.Color.Black;
+            this.labelImdb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.labelImdb.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.labelImdb.FontWeight = MetroFramework.MetroLabelWeight.Bold;
             this.labelImdb.ForeColor = System.Drawing.Color.DimGray;
@@ -320,7 +320,7 @@
             this.movieDescription.FontSize = MetroFramework.MetroLabelSize.Tall;
             this.movieDescription.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.movieDescription.ForeColor = System.Drawing.Color.DarkGray;
-            this.movieDescription.Location = new System.Drawing.Point(948, 225);
+            this.movieDescription.Location = new System.Drawing.Point(939, 212);
             this.movieDescription.Name = "movieDescription";
             this.movieDescription.Size = new System.Drawing.Size(270, 242);
             this.movieDescription.TabIndex = 23;
@@ -349,7 +349,7 @@
             this.btnExit.BackgroundImage = global::CinemaApp.Properties.Resources.exiticon;
             this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(1177, -1);
+            this.btnExit.Location = new System.Drawing.Point(1179, 0);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(52, 41);
             this.btnExit.Style = MetroFramework.MetroColorStyle.Purple;
@@ -361,7 +361,7 @@
             // 
             // movieSearch
             // 
-            this.movieSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.movieSearch.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.movieSearch.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower;
             // 
             // 
@@ -381,7 +381,7 @@
             this.movieSearch.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.movieSearch.Icon = global::CinemaApp.Properties.Resources.searchicon1;
             this.movieSearch.Lines = new string[0];
-            this.movieSearch.Location = new System.Drawing.Point(305, 67);
+            this.movieSearch.Location = new System.Drawing.Point(369, 66);
             this.movieSearch.MaxLength = 32767;
             this.movieSearch.Name = "movieSearch";
             this.movieSearch.PasswordChar = '\0';
@@ -399,15 +399,15 @@
             this.movieSearch.UseSelectable = true;
             this.movieSearch.UseStyleColors = true;
             this.movieSearch.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            this.movieSearch.WaterMarkFont = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.movieSearch.WaterMarkFont = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.movieSearch.TextChanged += new System.EventHandler(this.movieSearch_TextChanged);
             // 
             // cinemaPicture
             // 
             this.cinemaPicture.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.cinemaPicture.Location = new System.Drawing.Point(0, 103);
+            this.cinemaPicture.Location = new System.Drawing.Point(0, 48);
             this.cinemaPicture.Name = "cinemaPicture";
-            this.cinemaPicture.Size = new System.Drawing.Size(330, 453);
+            this.cinemaPicture.Size = new System.Drawing.Size(330, 508);
             this.cinemaPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.cinemaPicture.TabIndex = 0;
             this.cinemaPicture.TabStop = false;
@@ -419,7 +419,7 @@
             this.btnMinimize.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMinimize.BackgroundImage")));
             this.btnMinimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnMinimize.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnMinimize.Location = new System.Drawing.Point(1115, -1);
+            this.btnMinimize.Location = new System.Drawing.Point(1120, 0);
             this.btnMinimize.Name = "btnMinimize";
             this.btnMinimize.Size = new System.Drawing.Size(56, 41);
             this.btnMinimize.Style = MetroFramework.MetroColorStyle.Purple;
@@ -480,7 +480,6 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(66)))));
-            this.BackgroundImage = global::CinemaApp.Properties.Resources.formBackground;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1233, 619);
             this.Controls.Add(this.formTopPanel);

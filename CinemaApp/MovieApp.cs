@@ -26,11 +26,11 @@ namespace CinemaApp
 
         private void CinemaApp_Load(object sender, EventArgs e)
         {
-            labelTitle.BackColor = Color.FromArgb(200, Color.Black);
-            labelGenre.BackColor = Color.FromArgb(200, Color.Black);
-            labelYear.BackColor = Color.FromArgb(200, Color.Black);
-            labelRuntime.BackColor = Color.FromArgb(200, Color.Black);
-            labelImdb.BackColor = Color.FromArgb(200, Color.Black);
+            //labelTitle.BackColor = Color.FromArgb(200, Color.Black);
+            //labelGenre.BackColor = Color.FromArgb(200, Color.Black);
+            //labelYear.BackColor = Color.FromArgb(200, Color.Black);
+            //labelRuntime.BackColor = Color.FromArgb(200, Color.Black);
+            //labelImdb.BackColor = Color.FromArgb(200, Color.Black);
         }
 
         private void search_Click(object sender, EventArgs e)
